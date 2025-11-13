@@ -13,7 +13,19 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+ header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #010260;
+        color: #ffffff;
+        padding: 1rem;
+      }
+      header nav a {
+        color: #ffffff;
+        margin-left: 1rem;
+        text-decoration: none;
+      }
 /* Contact Section */
 .contact {
   width: 100%;
